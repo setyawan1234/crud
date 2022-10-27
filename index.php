@@ -16,7 +16,6 @@
     <div class="container">
         <br>
         <h4><center>DAFTAR PESERTA PELATIHAN</center></h4>
-        
         <?php
             include "koneksi.php";
             if (isset($_GET['id_peserta'])) {
@@ -33,8 +32,6 @@
                     }
                 }
         ?>
-
-
         <tr class="table-danger">
             <br>
             <thead>
@@ -48,7 +45,6 @@
                             <th>No Hp</th>
                             <th>Alamat</th>
                             <th colspan='2'>Aksi</th>
-
                 </tr>
             </thead>
         </tr>
